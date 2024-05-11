@@ -1,0 +1,71 @@
+body{
+font-family: Arial, Helvetica, sans-serif;
+background-color: rgb(145, 145, 145);
+margin: 0;
+padding: 20px;
+display: flex;
+justify-content: center;
+height: 100vh;
+
+}
+
+
+.container{
+
+    background-color: rgb(255, 248, 248);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgb(18, 16, 16); 
+
+}
+
+h1{
+text-align: center;
+color: rgb(4, 22, 78);
+
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+
+    margin-bottom: 10px;
+
+}
+input, select {
+
+padding: 8px;
+margin-bottom: 20px;
+border: 2px solid #001580;
+border-radius: 8px;
+font-size: 16px;
+
+}
+
+button{
+
+    background-color: rgba(19, 26, 239, 0.84);
+    color: rgb(159, 248, 254);
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 4px;
+}
+button a{
+    text-decoration: none;
+
+}
+
+button:hover{
+
+background-color: aliceblue;
+color: rgb(255, 255, 255);
+margin: 4px;
+
+}
+
